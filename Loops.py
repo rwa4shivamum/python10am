@@ -1,8 +1,8 @@
 # if(true){
 #     print("hello")
 # }
-if True:
-    print("hello")
+# if True:
+#     print("hello")
 
 # name = "shivam"
 # name = "aani"
