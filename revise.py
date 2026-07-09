@@ -87,3 +87,7 @@ elif(age >= 18 and age >= 22):
     print("Eligible to vote and buy house")
 else:
     print("Not eligible")
+
+
+print("Hello")
+print("jnefn")
