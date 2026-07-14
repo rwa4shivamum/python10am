@@ -72,22 +72,83 @@ name = "shivam"
 
 #conditional operator
 
-print(10)
-print("shivma")
+# print(10)
+# print("shivma")
 
-age = 19
+# age = 19
 #prblm statement:greater then 18 to eligible to vote, agar greater then 22 eligible to buy house, if both 18 > and also 22 > then elegible to vote and buy house
-age = int(input("enter your age:"))
+# age = int(input("enter your age:")) #17
 
-if(age >= 18 and age <= 22):
-    print("Eligible to vote")
-elif(age >= 22):
-    print("Eligible to buy house")
-elif(age >= 18 and age >= 22):
-    print("Eligible to vote and buy house")
-else:
-    print("Not eligible")
+# if(age >= 18 and age >= 22):
+#     print("Eligible to vote and buy house")
+# elif(age >= 18):
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible")
 
 
-print("Hello")
-print("jnefn")
+# print("Hello")
+# print("jnefn")
+
+# num = 194
+# num1 = num // 10
+# lstDigit = num % 10
+# print(num1, lstDigit)
+# num2 = num1 // 10 
+# scndLastDigit = num1 % 10
+# print(num2,scndLastDigit)
+# num3 = num2 // 10
+# thirdLastDigit = num2 % 10
+# print(num3, thirdLastDigit)
+
+# num = 194
+# num1 = num % 10
+# print(num1)
+# num2 = num1 % 10 
+# print(num2)
+# num3 = num2 % 10
+# print(num3)
+
+
+
+# num = 194
+# total = 0
+# count = 0
+# while(num > 0):
+#     lstDigit = num % 10
+#     total = total + lstDigit
+#     count = count + 1
+#     num = num // 10
+# #num=194;total = 0 while(194 > 0): lstDigit = num % 10 ; lstDigit = 4; total = 0 + 4; total = 4; num = 194 // 10 num=19
+# #num=19; total = 4 while(19 > 0): lstDigit = 19 % 10; lstDigt = 9; total = 4 + 9 = 13; num = 19 // 10; num = 1
+# #num=1; total = 13 while(1 > 0): lstDigit = 1%10; lstDigt = 1; total = 13 + 1=14; num = 1 // 10; num=0
+# #num=0; total = 14 while(0>0)
+# print(total, count)
+
+
+
+# name1="shivam"
+# name2="shivanakn"
+# name3="jsklfs"
+# name4="kljsndf"
+# name5="kjsdfn"
+# print(name)
+# #              0         1       2         3         4
+# lstofName = ["shivam" ,"sani", "kajal", "sohuvn", "jhbdsf"] 
+# print(lstofName[4])
+
+
+# for i in range(5):
+#     print(i)
+
+#            start, stop, step  
+# for i in range(1,5,2):
+#     print(i)
+
+# for i in range(10,-10,-2):
+#     print(i)
+-5,-4,-3,-2,-1,0,1,2,3,4,5
+for i in range(0):
+    print(i)
+
+#10,8,6,4,2,0,-2,-4,-6,-8
