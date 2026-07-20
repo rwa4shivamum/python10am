@@ -64,3 +64,46 @@ print(name1.lower())
 print(name.capitalize())
 print(len(name))
 print(name1.replace("L", "K"))
+
+str = "kjsdfhbsjhdfsjkdf"
+print(str[0])
+print(str[-1])
+str1 = "hello"
+str2 = "world"
+
+print(str1 + str2 + "Shivam")#stribng concatination
+#4.slicing
+print(str1[1:3])
+#4.length of stinrg
+print(len(str1))
+str  = "   HEllokj world "
+# print(str.lower())
+# print(str.upper())
+# print(str.title())
+# print(str1.capitalize())
+# print(str.strip())
+# print(str1.split(''))['h','e','l','l','o']
+print(str.find("World"))
+print(str.replace("world", "Python"))
+
+name = "Shivam"
+age = 21
+print(f"I am {name} and my age {age}")
+
+#c++ string name = "shivam"
+
+# lstOfDatatpyes = [1,"shivam",True,2.5]
+# print(lstOfDatatpyes)
+# del lstOfDatatpyes
+# print(lstOfDatatpyes)
+
+
+my_list = ['apple', 'banana', 'cherry', 'banana']
+my_list.remove('cherry')
+print(my_list)
+
+mylist = [1,2,3]
+mylist.append(4)
+mylist.extend([6,7])
+print(mylist)
+# print(my_list.index("cherry"))
